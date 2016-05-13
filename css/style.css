@@ -21,6 +21,22 @@ body {
     margin-top: 0;   
 }
 
+.right-aligned {
+    float: right;
+}
+
+.left-aligned {
+    float: left;
+}
+
+.table-header {
+    font-size: 1.2em;
+}
+
+.table-element {
+    font-size: 1em;
+}
+
 .btn-default {
     color: #F1F1F1;
     background-color: #555555;
@@ -33,6 +49,7 @@ body {
 }
 
 .navbar-nav {
+    font-family: minion-pro;
     font-size: 1.2em;
 }
 
