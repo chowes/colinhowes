@@ -2,17 +2,23 @@ body {
     background-color: #ededed;
 }
 
-h1 {
+.page-title {
+    text-align: center;
     font-size: 2.8em;
     margin-top: 0;
 }
 
-p {
-    font-size: 1.2em;
+.page-headings {
+
 }
 
-.centered {
-    text-align: center;
+.page-subheadings {
+    text-decoration: underline;
+}
+
+.page-text {
+    font-size: 1.2em;
+    margin-top: 0;   
 }
 
 .btn-default {
