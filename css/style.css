@@ -34,6 +34,10 @@ body {
     text-decoration: underline;
 }
 
+.italics {
+    font-style: italic;
+}
+
 .pull-right {
     float: right;
 }
