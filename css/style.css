@@ -32,6 +32,7 @@ body {
 .degree {
     font-size: 1.4em;  
     text-decoration: underline;
+    margin-bottom: 0;
 }
 
 .italics {
