@@ -5,30 +5,33 @@ colinApp.config(function ($routeProvider) {
     
     .when('/', {
         templateUrl: 'templates/about.html',
-        // controller: 'homeController'
+        controller: 'navController'
     })
     .when('/academics', {
         templateUrl: 'templates/academics.html',
-        // controller: 'forecastController'
+        controller: 'navController'
     })
     .when('/projects/', {
         templateUrl: 'templates/projects.html',
-        // controller: 'forecastController'
+        controller: 'navController'
     })
     .when('/skills', {
         templateUrl: 'templates/skills.html',
-        // controller: 'homeController'
+        controller: 'navController'
     })
     .when('/research/', {
         templateUrl: 'templates/research.html',
-        // controller: 'forecastController'
+        controller: 'navController'
     })
     .when('/teaching/', {
         templateUrl: 'templates/teaching.html',
-        // controller: 'forecastController'
+        controller: 'navController'
     })
     .when('/contact/', {
         templateUrl: 'templates/contact.html',
-        // controller: 'forecastController'
+        controller: 'navController'
     })
+    .otherwise({
+        redirectTo: '/'
+    });
 })
