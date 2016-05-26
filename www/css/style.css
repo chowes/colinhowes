@@ -62,7 +62,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: minion-pro;
+    font-family: minion-pro, times, serif;
     font-size: 1.8em;
 }
 
