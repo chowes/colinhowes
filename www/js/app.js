@@ -19,12 +19,8 @@ colinApp.config(function ($routeProvider) {
         templateUrl: 'templates/skills.html',
         controller: 'navController'
     })
-    .when('/research/', {
-        templateUrl: 'templates/research.html',
-        controller: 'navController'
-    })
-    .when('/teaching/', {
-        templateUrl: 'templates/teaching.html',
+    .when('/work/', {
+        templateUrl: 'templates/work.html',
         controller: 'navController'
     })
     .when('/contact/', {

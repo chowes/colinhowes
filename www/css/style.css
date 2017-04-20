@@ -1,5 +1,5 @@
 body {
-    background-color: #ededed;
+    background-color: #FFFFFF;
 }
 
 .photo {
@@ -12,6 +12,7 @@ body {
 }
 
 .page-title {
+    color: #4269B5;
     text-align: center;
     font-size: 2.8em;
     margin-top: 0;
@@ -61,19 +62,40 @@ body {
     border-color: #ccc;
 }
 
+.navbar-inverse {
+    background-color: #4269B5;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .navbar-brand {
-    font-family: minion-pro, times, serif;
-    font-size: 1.8em;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #e0e0e0 !important;
+    font-size: 2.0em;
 }
 
 .navbar-nav {
-    font-family: minion-pro, times, serif;
-    font-size: 1.2em;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.6em;
+}
+
+.navbar-toggle {
+    border: none;
+    outline: none;
+}
+
+li > a {
+    color: #e0e0e0 !important;
+}
+
+li > a:hover, li > a:focus {
+    color: #FFFFFF !important;
 }
 
 .linebreak {
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #4269B5;
 }
 
 @media (max-width: 900px) {
@@ -90,12 +112,13 @@ body {
         display: block;
     }
     .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
     }
     .navbar-fixed-top {
         top: 0;
-        border-width: 0 0 1px;
+        border-width: 0 0 0px;
     }
     .navbar-collapse.collapse {
         display: none !important;
