@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.9.4)  3 OCT 2017 13:13
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.9.4)  16 OCT 2017 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,26 +929,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 125.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./chowes_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 223.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 22350 strings out of 495561
- 399723 string characters out of 6186973
+ 22352 strings out of 495561
+ 399813 string characters out of 6186973
  428698 words of memory out of 5000000
- 25455 multiletter control sequences out of 15000+600000
- 4256 words of font info for 47 fonts, out of 8000000 for 9000
+ 25456 multiletter control sequences out of 15000+600000
+ 4264 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,5n,107p,10354b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 
