@@ -64,7 +64,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\namesection{Colin}{Howes}{ \href{http://colinhowes.me}{\custombold{colinhowes.me}} | 
+\namesection{Colin}{Howes}{ \href{http://colinhowes.com}{\custombold{colinhowes.com}} | 
 GitHub:/\href{https://github.com/chowes}{\custombold{chowes}} | LinkedIn:/\href{https://www.linkedin.com/in/colin-howes/}{\custombold{colin-howes}} \\
 \href{mailto:chowes@uwaterloo.ca}{chowes@uwaterloo.ca} | 226-979-1031
 }
@@ -122,7 +122,7 @@ Java \textbullet{} C \textbullet{} Python \textbullet{} C++ \textbullet{} R
 
 \subsection{Technologies and Tools}
 Git \textbullet{} Linux \textbullet{} Android \\
-Shell Scripting \textbullet{} \LaTeX
+gRPC \textbullet{} Shell Scripting \textbullet{} \LaTeX
 \sectionsep
 
 \subsection{Web Technologies}
@@ -152,8 +152,7 @@ AngularJS \textbullet{} MySQL/SQLite
 \location{Sept 2017 - Present  | Waterloo, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Design and implement computer vision algorithms to enable sign recognition in an autonomous vehicle
-\item Currently in the stage of evaluating frameworks and inter-process communication mechanisms
+\item Researched and developed image classification algorithms that could be applied in real time to traffic sign recognition in an autonomous vehicle
 \end{tightemize}
 \sectionsep
 
@@ -162,7 +161,7 @@ AngularJS \textbullet{} MySQL/SQLite
 \location{Dec 2015 – Dec 2016 | Guelph, ON}
 \begin{tightemize}
 \item Developed a survey platform in collaboration with a team of public health researchers aimed at facilitating data collection from remote communities
-\item Designed a survey builder that enables non-technical researchers to create a database of questions and responses that could be combined into complex, targeted, and dynamic surveys
+\item Designed a survey builder that enables non-technical researchers to create complex, targeted, and dynamic surveys
 
 \end{tightemize}
 \sectionsep
@@ -171,7 +170,7 @@ AngularJS \textbullet{} MySQL/SQLite
 \descript{\\University of Guelph - Department of Psychology}
 \location{Sep 2014 – Dec 2016 | Guelph, ON}
 \begin{tightemize}
-\item Led a two year research project investigating the effects of prenatal exposure to testosterone on learning and social behaviour
+\item Led a research project investigating effects of exposure to testosterone on learning and social behaviour
 \item Trained and mentored a large team of undergraduate students
 \end{tightemize}
 \sectionsep
@@ -190,10 +189,16 @@ AngularJS \textbullet{} MySQL/SQLite
 
 \section{Projects}
 
+\runsubsection{Analysis of TCP BBR for Data Centers}
+\begin{tightemize}
+\item Assessed the performance of TCP BBR as an alternative congestion control algorithm for data centers supporting latency critical distributed applications 
+\end{tightemize}
+\sectionsep
+
 \runsubsection{W\small{at}\large{FS}}
 \descript{\href{https://github.com/chowes/WatFS}{GitHub}}
 \begin{tightemize}
-\item Remote file system built on top of FUSE, using gRPC as a communcation mechanism
+\item Fault tolerant remote file system built on top of FUSE, using gRPC as a communcation mechanism
 \end{tightemize}
 \sectionsep
 
@@ -201,13 +206,6 @@ AngularJS \textbullet{} MySQL/SQLite
 \descript{\href{https://github.com/chowes/tcp-congestion-control}{GitHub}}
 \begin{tightemize}
 \item Replicated DCTCP performance experiments related to incast congestion and ECN parameter tuning using data center network topologies modeled in the Mininet network emulator
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Reliable File Transfer}
-\descript{\href{https://github.com/chowes}{GitHub}}
-\begin{tightemize}
-\item Designed a file transfer server with TCP-like reliability mechanisms implemented in C and C++ over top of the Linux UDP socket interface
 \end{tightemize}
 \sectionsep
 
