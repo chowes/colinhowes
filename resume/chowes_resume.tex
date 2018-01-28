@@ -1,67 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[]{chowes-resume}
 
 
 \begin{document}
 \thispagestyle{empty}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     TITLE NAME
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \namesection{Colin}{Howes}{ \href{http://colinhowes.com}{\custombold{colinhowes.com}} | 
@@ -84,16 +25,38 @@ GitHub:/\href{https://github.com/chowes}{\custombold{chowes}} | LinkedIn:/\href{
 
 \section{Education} 
 
-\subsection{University of Waterloo}
-\descript{MMath Computer Science - Co-op}
-\location{Dec 2018 (expected) | Waterloo, ON \\ GPA: 3.98 / 93\%}
+\subsection{MMath - Computer Science}
+\descript{University of Waterloo}
+\location{December 2018 \\ GPA: 3.98 \textbullet{} CAV: 93 \%}
 \sectionsep
 
-\subsection{University of Guelph}
-\descript{MSc Neuroscience and Applied Cognitive Science}
-\location{Dec 2016 | Guelph, ON \\ GPA: 3.98 / 94\%}
+\subsection{MSc - Neuroscience}
+\descript{University of Guelph}
+\location{December 2016 \\ GPA: 3.98 \textbullet{} CAV: 94 \%}\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Programming Languages}
+C \textbullet{} Java \textbullet{} C++ \textbullet{} Python
 \sectionsep
 
+\subsection{Technologies and Tools}
+Git \textbullet{} Linux \textbullet{} TensorFlow \textbullet{} Android \\
+gRPC \textbullet{} Shell Scripting \textbullet{} \LaTeX
+\sectionsep
+
+\subsection{Concepts}
+Distributed Systems \textbullet{} Security \\
+Networks \textbullet{} Kernel Development \\
+Artificial Intelligence \\
+
+\sectionsep
+\sectionsep
 \subsection{Coursework}
 Empirical Performance Evaluation - 91\%\\
 Advanced Distributed Systems - 96\%\\
@@ -104,30 +67,6 @@ Research Design and Statistics - 96\%\\
 Operating Systems - 91\%\\
 Algorithms - 89\%\\
 Data Structures 94\%\\
-
-\subsection{}
-IP: In Progress
-\sectionsep
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-
-\subsection{Programming Languages}
-C \textbullet{} Java \textbullet{} C++ \textbullet{} Python \textbullet{} R
-\sectionsep
-
-\subsection{Technologies and Tools}
-Git \textbullet{} Linux \textbullet{} Android \\
-gRPC \textbullet{} Shell Scripting \textbullet{} \LaTeX
-\sectionsep
-
-\subsection{Web Technologies}
-HTML \textbullet{} CSS \textbullet{} JavaScript \\ 
-AngularJS \textbullet{} MySQL/SQLite
 \sectionsep
 
 
@@ -147,12 +86,13 @@ AngularJS \textbullet{} MySQL/SQLite
 
 \section{Experience}
 
-\runsubsection{BlackBerry / QNX}
+\runsubsection{BlackBerry QNX}
 \descript{\\Core OS Software Development Student}
 \location{Jan 2018 - Present  | Kanata, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Current intern on the kernel development team
+\item Current intern on the kernel development team.
+\item Responsible for writing unittests and patches for QNX kernel code and the C standard library.
 \end{tightemize}
 \sectionsep
 
@@ -160,7 +100,8 @@ AngularJS \textbullet{} MySQL/SQLite
 \descript{\\WATonomous - SAE AutoDrive Challenge Team}
 \location{Sep 2017 - Present  | Waterloo, ON}
 \begin{tightemize}
-\item Developed and trained an image classifier based on a convolutional neural network capable of classifying traffic signs
+\item Developed and trained an image classifier based on a convolutional neural network capable of classifying traffic signs using Python and TensorFlow.
+\item The trained model was capable of rapidly classifying images from 42 classes of traffic signs with 96 \% accuracy.
 \end{tightemize}
 \sectionsep
 
@@ -168,24 +109,8 @@ AngularJS \textbullet{} MySQL/SQLite
 \descript{\\University of Guelph - Department of Computer Science}
 \location{Dec 2015 – Dec 2016 | Guelph, ON}
 \begin{tightemize}
-\item Developed a survey platform in collaboration with a team of public health researchers aimed at facilitating data collection from remote communities
-
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Graduate Research Assistant}
-\descript{\\University of Guelph - Department of Psychology}
-\location{Sep 2014 – Dec 2016 | Guelph, ON}
-\begin{tightemize}
-\item Led a research project investigating effects of exposure to testosterone on learning and social behaviour
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Seminar Instructor}
-\descript{\\University of Guelph}
-\location{Sep 2014 – Dec 2016 | Guelph, ON}
-\begin{tightemize}
-\item Led a seminar on research methods and statistics for high-achieving upper year undergraduate students interested in graduate studies
+\item Developed a survey platform backed by PHP and MySQL using AngularJS and Bootstrap at the front end. 
+\item Designed in collaboration with a team of public health researchers to facilitate data collection from remote communities.
 \end{tightemize}
 \sectionsep
 
@@ -198,14 +123,16 @@ AngularJS \textbullet{} MySQL/SQLite
 \runsubsection{Analysis of TCP BBR for Data Centres}
 \descript{\href{https://github.com/chowes/data-center-bbr.git}{GitHub}}
 \begin{tightemize}
-\item Assessed the performance of TCP BBR as an alternative congestion control algorithm for data centres supporting latency critical distributed applications 
+\item Assessed throughput and latency performance of TCP BBR as an alternative congestion control algorithm for data centres supporting latency critical distributed applications.
+\item Implemented a distributed network performance measurement tool in C++ capable of monitoring and coordinating concurrent connections from 40 nodes on a high speed cluster.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{W\small{at}\large{FS}}
 \descript{\href{https://github.com/chowes/WatFS}{GitHub}}
 \begin{tightemize}
-\item Fault tolerant remote file system built on top of FUSE, using gRPC as a communication mechanism
+\item Fault tolerant remote file system built on top of FUSE, using RPC as a communication mechanism. 
+\item WatFS uses batched writes similar to NFSv3, and is capable of sustaining speeds fast enough to stream 4k video over WiFi.
 \end{tightemize}
 \sectionsep
 
